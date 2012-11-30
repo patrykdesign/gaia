@@ -46,7 +46,7 @@
 
 #update-manager-container > .icon,
 #update-manager-toaster > .icon {
-  background-image: url('images/downloads.png');
+  background-image: url('images/iconindicator_download_24x24.png');
 }
 
 #update-manager-container.downloading > .icon {
