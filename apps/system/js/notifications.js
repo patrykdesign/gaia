@@ -244,7 +244,7 @@ var NotificationScreen = {
 
     if (this.alerts) {
       var ringtonePlayer = new Audio();
-      ringtonePlayer.src = 'style/notifications/ringtones/notification.wav';
+      ringtonePlayer.src = 'style/notifications/ringtones/notifier_exclamation.ogg';
       ringtonePlayer.mozAudioChannelType = 'notification';
       ringtonePlayer.play();
       window.setTimeout(function smsRingtoneEnder() {
